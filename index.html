@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>청년암 - 인터랙티브 기사</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="bg-container">
+    <img src="./cover.jpg" class="bg-layer bg-cover" id="bgCover" alt="표지 이미지" />
+    <img src="./bg.jpg" class="bg-layer bg-main" id="bgMain" alt="본문 배경" />
+    <canvas id="ecgCanvas"></canvas>
+  </div>
+
+  <main class="content-container">
+    <section class="cover-section">
+      <div class="scroll-arrow">↓ 스크롤을 내려주세요</div>
+    </section>
+
+    <section class="story-section" id="storySection"></section>
+
+    <section class="spacer"></section>
+  </main>
+
+  <script src="./main.js"></script>
+</body>
+</html>
